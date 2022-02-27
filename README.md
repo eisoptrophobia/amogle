@@ -1,12 +1,8 @@
-# Par🇮🇹le
+# Amogle
 
-https://pietroppeter.github.io/wordle-it/
-
-Una versione italiana (non ufficiale) di [WORDLE](https://powerlanguage.co.uk/wordle/). Se l'autore di Wordle non approva, lo tiro giù: https://twitter.com/pietroppeter/status/1477993203425030144?s=20
-
-Dizionari presi da https://github.com/napolux/paroleitaliane e https://github.com/sigmasaur/AnagramSolver
-
-# English
+A fork of https://github.com/pietroppeter/wordle-it.
+Based on https://powerlanguage.co.uk/wordle/.
+Amogus
 
 An italian version of https://powerlanguage.co.uk/wordle/. Waiting from official approval (if not approved this will be taken down): https://twitter.com/pietroppeter/status/1477993203425030144?s=20
 

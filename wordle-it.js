@@ -1461,7 +1461,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                                   }
                               })), d += "\n")
                           })), {
-                              text: "".concat(l, "\n\n").concat(d.trimEnd())
+                              text: "".concat(l, "\n\n").concat(d.trimEnd()).concat("\n\nhttps://eisoptrophobia.github.io/amogle/")
                           }
                       }({
                           evaluations: e.gameApp.evaluations,

@@ -940,7 +940,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   }(c(HTMLElement));
   customElements.define("game-toast", Ea);
   var Aa = wordlist_answers,
-      La = wordlist_english.concat(wordlist_answers),
+      La = wordlist_english,
       Ta = "present",
       Ia = "correct",
       Ca = "absent";

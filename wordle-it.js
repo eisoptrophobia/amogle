@@ -963,7 +963,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
               }
       })), s
   }
-  var Ra = new Date(2022, 0, 3, 0, 0, 0, 0);
+  var Ra = new Date(2022, 2, 0, 0, 0, 0, 0);
 
   function $a(e, a) {
       var s = new Date(e),
@@ -972,7 +972,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   }
 
   function Pa(e) {
-      var today = Math.floor(e / 8.64e7);
+      var today = Na(e) + 19050;
       var previous = [];
       for (int i = 19051; i <= today; i ++) {
           Math.seedrandom(i);
@@ -1451,7 +1451,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                               r = e.isWin,
                               n = JSON.parse(window.localStorage.getItem(j)),
                               i = JSON.parse(window.localStorage.getItem(S)),
-                              l = "Amogle #".concat(s - 55);
+                              l = "Amogle #".concat(s);
                           l += " ".concat(r ? t : "X", "/").concat(6), o && (l += "*");
                           var d = "";
                           return a.forEach((function(e) {

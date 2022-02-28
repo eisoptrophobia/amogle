@@ -974,7 +974,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   function Pa(e) {
       var today = Na(e) + 19050;
       var previous = [];
-      for (int i = 19051; i <= today; i ++) {
+      for (var i = 19051; i <= today; i ++) {
           Math.seedrandom(i);
           var next = Math.floor(Math.random() * Aa.length);
           while (true) {

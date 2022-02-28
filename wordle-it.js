@@ -972,8 +972,24 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   }
 
   function Pa(e) {
-      Math.seedrandom(Math.floor(e / 8.64e7));
-      var zsknvkznle = Aa[Math.floor(Math.random() * Aa.length)];
+      var today = Math.floor(e / 8.64e7);
+      var previous = [];
+      for (int i = 19051; i <= today; i ++) {
+          Math.seedrandom(i);
+          var next = Math.floor(Math.random() * Aa.length);
+          while (true) {
+              next ++;
+              next %= Aa.length;
+              for (var j = previous.length - 31; j < previous.length; j ++) {
+                  if (next === previous[j]) {
+                      continue;
+                  }
+              }
+              break;
+          }
+          previous.push(next);
+      }
+      var zsknvkznle = Aa[previous[previous.length - 1]];
       return zsknvkznle
   }
 

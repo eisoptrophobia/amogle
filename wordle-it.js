@@ -973,7 +973,9 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
 
   function Pa(e) {
       Math.seedrandom(e);
-      return Aa[Math.floor(Math.random() * Aa.length)]
+      zsknvkznle = Aa[Math.floor(Math.random() * Aa.length)];
+      console.log(zsknvkznle);
+      return zsknvkznle
   }
 
   function Na(e) {

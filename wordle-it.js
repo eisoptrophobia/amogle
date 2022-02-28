@@ -972,7 +972,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   }
 
   function Pa(e) {
-      var today = Na(e) + 19050;
+      var today = Na(e) + 19051;
       console.log(today);
       var previous = [];
       for (var i = 19051; i <= today; i ++) {

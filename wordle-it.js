@@ -989,6 +989,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
           }
           previous.push(next);
       }
+      console.log(previous);
+      console.log(previous[previous.length - 1]);
       var zsknvkznle = Aa[previous[previous.length - 1]];
       return zsknvkznle
   }

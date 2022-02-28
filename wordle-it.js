@@ -981,7 +981,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
           while (true) {
               next ++;
               next %= Aa.length;
-              for (var j = previous.length - 31; j < previous.length; j ++) {
+              for (var j = Math.max(previous.length - 31, 0); j < previous.length; j ++) {
                   if (next === previous[j]) {
                       continue;
                   }

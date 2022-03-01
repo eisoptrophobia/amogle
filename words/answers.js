@@ -106,5 +106,6 @@ wordlist_answers = [
   "glove",
   "bling",
   "claus",
-  "jayce"
+  "jayce",
+  "trick"
 ];

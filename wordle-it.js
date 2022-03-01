@@ -1069,7 +1069,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   var Qa = "IN_PROGRESS",
       Za = "WIN",
       es = "FAIL",
-      as = ["Sussy!", "There are no imposters amogus", "Muy bien!", "Among us reference!!!1!1!", "Not the imposter!", "Self-report???"],
+      as = ["Sussy!", "There is an imposter among us!", "Crewmates win!", "Body in Electrical!", "Emergency meeting!", "Self-report!"],
       ss = function(e) {
           n(t, e);
           var a = h(t);

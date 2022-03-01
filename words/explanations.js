@@ -55,7 +55,7 @@ var word_explanations = {
   "lobby": "In Among Us, players spawn in a lobby before the game begins",
   "mafia": "Among Us was inspired by the party game Mafia",
   "miner": "Miner Setback is a hat cosmetic in Among Us",
-  "mogus": ""Mogus\" is a contraction for \"amogus,\" which itself is a portmanteau for \"Among Us\"",
+  "mogus": "\"Mogus\" is a contraction for \"amogus,\" which itself is a portmanteau for \"Among Us\"",
   "moist": "MoistCr1TiKaL is an online content creator who frequently played Among Us",
   "muffs": "Muffs is a hat cosmetic in Among Us",
   "nogla": "Nogla is an online content creator who frequently played Among Us",

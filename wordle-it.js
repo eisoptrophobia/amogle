@@ -977,7 +977,6 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
         2: 108
       };
       var today = Na(e) + 19051;
-      console.log(today);
       var previous = [];
       var current_wordlist_length = 0;
       for (var i = 19051; i <= today; i ++) {
@@ -998,8 +997,6 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
           }
           previous.push(next);
       }
-      console.log(previous);
-      console.log(previous[previous.length - 1]);
       var zsknvkznle = Aa[previous[previous.length - 1]];
       return zsknvkznle
   }

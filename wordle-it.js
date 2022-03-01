@@ -979,10 +979,10 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
           Math.seedrandom(i);
           var next = Math.floor(Math.random() * Aa.length);
           while (true) {
-              next ++;
-              next %= Aa.length;
               for (var j = Math.max(previous.length - 31, 0); j < previous.length; j ++) {
                   if (next === previous[j]) {
+                      next ++;
+                      next %= Aa.length;
                       continue;
                   }
               }

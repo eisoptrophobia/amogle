@@ -972,20 +972,25 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
   }
 
   function Pa(e) {
+      var wordlist_length_history = {
+        1: 82,
+        2: 108
+      };
       var today = Na(e) + 19051;
       console.log(today);
       var previous = [];
+      var current_wordlist_length = 0;
       for (var i = 19051; i <= today; i ++) {
+          if (wordlist_length_history[i - 19050] != undefined) {
+              current_wordlist_length = wordlist_length_history[i - 19050];
+          }
           Math.seedrandom(i);
-          var next = Math.floor(Math.random() * Aa.length);
-          console.log(next);
+          var next = Math.floor(Math.random() * current_wordlist_length);
           while (true) {
-              console.log("e");
               for (var j = Math.max(previous.length - 31, 0); j < previous.length; j ++) {
-                  console.log(j);
                   if (next === previous[j]) {
                       next ++;
-                      next %= Aa.length;
+                      next %= current_wordlist_length;
                       continue;
                   }
               }

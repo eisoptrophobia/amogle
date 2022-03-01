@@ -978,8 +978,11 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
       for (var i = 19051; i <= today; i ++) {
           Math.seedrandom(i);
           var next = Math.floor(Math.random() * Aa.length);
+          console.log(next);
           while (true) {
+              console.log("e");
               for (var j = Math.max(previous.length - 31, 0); j < previous.length; j ++) {
+                  console.log(j);
                   if (next === previous[j]) {
                       next ++;
                       next %= Aa.length;
